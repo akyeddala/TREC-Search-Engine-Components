@@ -70,12 +70,6 @@ def tokenize_4grams(input_str: str) -> list[str]:
     Returns: an array of 4-grams tokens.
     """
 
-    #########
-    ##
-    ## Implement the function here
-    ##
-    #########
-
     #If string too short to create even one 4-gram
     if len(input_str) < 4:
       return [input_str]
@@ -98,7 +92,7 @@ def tokenize_4grams(input_str: str) -> list[str]:
       else:
         toks.append(tmp[i: i+4])
 
-    return toks # You will return something before this statement
+    return toks
 
 '''
 
