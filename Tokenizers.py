@@ -98,7 +98,7 @@ def tokenize_4grams(input_str: str) -> list[str]:
 
 # 1.3 tokenize_fancy()
 
-This is a more complicated tokenizer that builds on the spaces tokenizer and adds additional rules to produce (more) consistent tokens when dealing with words with the same root, punctuation, casing, urls, etc.
+This is a more complex tokenizer that builds on the spaces tokenizer and adds additional rules to produce (more) consistent and useful tokens while handling punctuation, casing, URLs, numbers, operators, etc.
 These are the rules to be applied in order accordingly:
 
 
