@@ -19,6 +19,11 @@ Stories have the following format:
 
 Documents are a list of JSON dictionary objects. For this project, we use an in-memory only index since we will not reuse it.
 
+Inverted index is a dictionary of terms as keys and their corresponding posting list as values. It also contains four special key-value pairs to keep track of overall index data:
+ - "xx_numDocs" : total number of docs in index
+ - "xx_numUniqueTerms" : total number of unique terms in index
+ - "xx_totalTF" : total term frequency in index
+ - "xx_docLens" : a dictionary of docIDs as keys and the number of terms in that document as the value
 
 
 '''
