@@ -287,7 +287,7 @@ def P_29R(query: QueryInfo) -> float:
 
 def PatR(query: QueryInfo) -> float:
   """
-  (Extra Credit) Calculate Precision at the number of relevant documents for the given query.
+  Calculate Precision at the number of relevant documents for the given query.
 
   Args:
         query: input query holding the qrels and ranked list information
